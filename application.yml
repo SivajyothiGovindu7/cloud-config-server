@@ -9,11 +9,11 @@ eureka:
     
     
 microservice:
-  payment-service:
+  address-service:
     endpoints:
       endpoint:
         uri: http://ADDRESS-SERVICE/address/saveAddress
-  order-service:
+  employee-service:
     endpoints:
       endpoint:
         uri: http://EMPLOYEE-SERVICE/employee/saveEmployee    
